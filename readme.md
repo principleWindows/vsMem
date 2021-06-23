@@ -8,6 +8,18 @@ https://github.com/principleWindows/vsMem
 [^_^]:
 https://gitee.com/principlewindows/vsMem
 
+[^_^]:
+https://docs.microsoft.com/zh-cn/visualstudio/ide/using-regular-expressions-in-visual-studio?view=vs-2019
+
+[^_^]:
+https://www.jianshu.com/p/9be87e7e15bf
+
+[^_^]:
+https://stackoverflow.com/questions/4823468/comments-in-markdown
+
+[^_^]:
+F:\teaching\principleWindows\git\vsMem
+
 ************************************
 
 This is a repository of supplying teaching resource for the courses of CS, 
