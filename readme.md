@@ -27,6 +27,9 @@ Wuhan University
 
 Instructor: Professor Jicheng Hu
 
+* [Tips for Visual Studio](tips/tips.md)
+* [Tips for Windows](tips/tips-4-win.md)
+
 **Please leave your comment, suggestion, question in the comment feedback or send me emails!**
 
 
