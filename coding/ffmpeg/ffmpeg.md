@@ -533,6 +533,13 @@ SET INCLUDE=%VSINSTALLDIR%VC\include;%VSINSTALLDIR%VC\Tools\MSVC\14.29.30133\inc
     avcodec_register_all();
 ```
 
+## 7 refs
+
+* [关于从海康威视或者大华摄像头获取PS数据流中的H264视频数据](https://blog.csdn.net/q742758702/article/details/89510483)
+* [FFMPEG+SDL2.0流媒体开发3---简易MP4视频播放器,提取MP4的H264视频序列解码并且显示](https://blog.csdn.net/yue7603835/article/details/42042115)
+* [FFmpeg 将YUV数据转RGB](https://www.cnblogs.com/nanqiang/p/10116279.html)
+* [VC++ 使用YV12转RGB（FFMpeg）](https://blog.csdn.net/u012156872/article/details/103691386)
+
 
 
 

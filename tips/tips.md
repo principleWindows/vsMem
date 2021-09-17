@@ -2,6 +2,12 @@
 
 [Use the Microsoft C++ toolset from the command line](https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-160)
 
+[MSBuild on the command line - C++](https://docs.microsoft.com/en-us/cpp/build/msbuild-visual-cpp?view=msvc-160)
+
+[MSBuild](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild?view=vs-2019)
+
+[vc/vsπ§≥Ã√¸¡Ó––±‡“Î](https://my.oschina.net/u/4000302/blog/3271118)
+
 [Create C++ cross-platform projects](https://docs.microsoft.com/en-us/cpp/build/get-started-linux-cmake?view=msvc-160)
 
 [Cross Platform C++ Development](https://devblogs.microsoft.com/cppblog/using-visual-studio-for-cross-platform-c-development-targeting-windows-and-linux/)
