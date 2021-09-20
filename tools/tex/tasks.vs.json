@@ -1,0 +1,19 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "pdfLatex",
+      "appliesTo": "*.tex",
+      "type": "default",
+      "command": "xelatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-output-directory",
+        "${workspaceRoot}\\textemp\\",
+        "${file}"
+      ]
+    }
+  ]
+}
