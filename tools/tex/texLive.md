@@ -1,5 +1,9 @@
 # TeXLive
 
+[How to install mathgifg package](https://tex.stackexchange.com/questions/129819/how-to-install-mathgifg-package)
+
+<https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/brandeis-thesis/>
+
 
 ## 1 Download
 
@@ -31,4 +35,18 @@ pdflatex -v
 Copy `tasks.vs.json` to the `.vs` folder of your project root working space.
 Create a new folder `textemp` in your project root working space,  
 and make sure to add `textemp/` to your `.ignore` file.
+
+
+## 4 Tips
+
+
+### 4.1 Extract a .cls from a .dtx
+
+```batch
+latex F:\Projects\yabee\git\auto-locator\textemp\erdc\erdc.ins
+```
+
+
+
+
 

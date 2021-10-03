@@ -1,5 +1,12 @@
 # Progressive Web Apps on Windows
 
+
+
+
+[HOW PROGRESSIVE WEB APPS BENEFITS TO IMPROVE YOUR BUSINESS](https://yugasa.com/mobile-apps/how-progressive-web-apps-benefits-to-improve-your-business/)
+
+[Get started with Progressive Web Apps](https://docs.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/get-started)
+
 <https://docs.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/>
 
 <https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps>

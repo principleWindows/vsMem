@@ -14,6 +14,8 @@
 
 [Linux && arm cross compaling in visual studio code](https://cloudstack.ninja/bochra-akrout/linux-arm-cross-compaling-in-visual-studio-code/)
 
+[×îºÃµÄ Windows C++ ±àÒëÆ÷£¡](https://baijiahao.baidu.com/s?id=1645352405560402772&wfr=spider&for=pc)
+
 ***************************
 
 ## 1 Build from the Command Line
