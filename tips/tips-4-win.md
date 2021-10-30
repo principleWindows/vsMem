@@ -3,6 +3,13 @@
 <https://social.technet.microsoft.com/Forums/zh-cn/home>
 
 
+## Clearing Disk C
+
+* C:/Windows/Temp
+* C:/SoftwareDistribution/Download
+* C:\Windows\System32\LogFiles/
+* C:\Windows\Prefetch
+
 ## Powershell
 
 [Understanding Windows Console Host Settings](https://devblogs.microsoft.com/commandline/understanding-windows-console-host-settings/)
