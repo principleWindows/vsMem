@@ -1,5 +1,10 @@
 # Most useful commands
 
+[3个重点，20个函数分析，浅析FFmpeg转码过程](https://www.toutiao.com/a7073367816962851365/?log_from=ce03dcfd37674_1646912607840)
+
+**************************************
+
+本文转换结果位于 `F:\teaching\principleWindows\2021\ffmpeg-N-103814-gd098e16f09-win64-gpl\bin`
 
 ## 转换`MP4`为`mp3`格式
 

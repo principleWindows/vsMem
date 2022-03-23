@@ -2,6 +2,8 @@
 
 <https://social.technet.microsoft.com/Forums/zh-cn/home>
 
+[Edge browser - Network features reference](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/network/reference)
+
 
 ## Clearing Disk C
 

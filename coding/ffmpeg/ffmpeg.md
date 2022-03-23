@@ -72,6 +72,8 @@ non-obvious information for consuming the FFmpeg DLLs from your win10 app.
 
 #### 3.1.1 MSYS2 Setup
 
+Please refer to [Install MSYS2](../../tools/tigerVNC.md#install-msys2).
+
 Download the installer: [msys2-x86_64-latest.tar.xz](msys2-x86_64-latest.tar.xz)
 Extract to run the installer. (folder file://D:/msys64/)
 
