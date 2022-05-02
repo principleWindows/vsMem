@@ -18,6 +18,18 @@
 
 ***************************
 
+## Index
+
+1. [Build from the Command Line](#build-from-the-command-line)\
+   1.1 [Download and install the tools](#download-and-install-the-tools)\
+   1.2 [How to use the command-line tools](#how-to-use-the-command-line-tools)\
+   1.3 [Path and environment variables for command-line builds](#path-and-environment-variables-for-command-line-builds)\
+   1.4 [Developer command prompt shortcuts](#developer-command-prompt-shortcuts)
+2. [Create Cpp Cross-Platform Projects](#create-cpp-cross-platform-projects)
+3. [Cross Platform C++ Development](#cross-platform-cpp-development)
+4. [Customize IDE for build and debug tasks](#customize-ide-for-build-and-debug-tasks)
+
+
 ## 1 Build from the Command Line
 
 You can build C and C++ applications on the command line by using tools that are included 
@@ -44,6 +56,10 @@ To install only the tools you need for C++ development, select the C++ build too
 You can select optional libraries and toolsets to include under Installation details. To build 
 code by using the Visual Studio 2015 or 2017 toolsets, select the optional MSVC v140 or 
 MSVC v141 build tools. When you're satisfied with your selections, choose Install.
+
+
+[Back to index](#index)
+
 
 ### 1.2 How to use the command-line tools
 
@@ -77,6 +93,10 @@ cross tools that build x86 and x64 code are also installed. If you choose the op
 Universal Windows Platform tools, then the x86 and x64 tools that build ARM and ARM64 code 
 also get installed. Other workloads may install these and other tools.
 
+
+[Back to index](#index)
+
+
 ### 1.3 Path and environment variables for command-line builds
 
 The MSVC command-line tools use the `PATH`, `TMP`, `INCLUDE`, `LIB`, and `LIBPATH` 
@@ -96,6 +116,9 @@ command for a baseline. Open a developer command prompt window and capture the o
 be useful to compare the environment variables and see what's set by the developer command 
 prompt. For information about the specific environment variables used by the compiler and linker, 
 see [CL Environment Variables](https://docs.microsoft.com/en-us/cpp/build/reference/cl-environment-variables?view=msvc-160).
+
+[Back to index](#index)
+
 
 ### 1.4 Developer command prompt shortcuts
 
@@ -124,12 +147,32 @@ Visual Studio 2019.
 
 
 
+[Back to index](#index)
+
+
 ## 2 Create Cpp Cross-Platform Projects
 
 
-## 3 Cross Platform C++ Development
+
+[Back to index](#index)
+
+
+## 3 Cross Platform C++ Development {#cross-platform-cpp-development}
 
 
 
+[Back to index](#index)
+
+
+## 4 Customize IDE for build and debug tasks
+
+- [Customize build and debug tasks for "Open Folder" development](#https://docs.microsoft.com/en-us/visualstudio/ide/customize-build-and-debug-tasks-in-visual-studio?view=vs-2022)
+- [如何在一个tasks.json中定义多个打字稿编译任务?](https://www.it1352.com/2473179.html)
+- [VS Code 运行C++程序以及TASKS.JSON和LAUNCH.JSON文件的基础配置](https://blog.csdn.net/m0_37701628/article/details/110105592)
+- [tasks.vs.json schema reference (C++)](https://docs.microsoft.com/en-us/cpp/build/tasks-vs-json-schema-reference-cpp?view=msvc-170)
+- [Visual Studio Macros for Build Commands & Property](http://blog.chinaunix.net/uid-521083-id-2109221.html)
+
+
+[Back to index](#index)
 
 

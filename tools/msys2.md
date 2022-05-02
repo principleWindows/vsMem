@@ -12,6 +12,7 @@
 2. [Set up a “Home”](#set-up-a-Home)
 3. [Installation](#installation)
 4. [How to use?](#how-to-use)
+5. [How to find mingw64 redistributable dlls?](#how-to-find-mingw64-redistributable-dlls)
 
 ![](pix/MSYS2-Icon.png)
 
@@ -117,6 +118,11 @@ Note: The variable must be an upper-case “HOME”, but the directory I use is “
 **Advanced option**: I also put this Home directory under Git revision control, 
 so I can track changes to my settings over time.
 
+**注意：**\
+安装完 MSYS2 后，/etc/pacman.d/ 不是位于上述 “D:\Home“，而是位于 MSYS2 的安装目录 
+"file://D:/msys2_64/etc/pacman.d/"，相应的镜像配置文件
+"/etc/pacman.d/mirrorlist.msys" 也就位于这个位置。
+
 [Back to index](#index)
 
 
@@ -177,6 +183,49 @@ the msys mirror paths use `x86_64` not `86_64`
 We can manually change pacman.conf to say `Architecture = x86_64`. 
 This might be useful for some error mirror sites problems.
 
+软件源修改好后，不要着急打命令，先测试一下软件源是否可用：
+```batch
+pacman -Sy
+```
+
+这句命令的意思是同步本地软件数据库。如果看到了以下几句，说明没有问题：
+```batch
+jiche@gpuPower MSYS ~
+$ pacman -Sy
+:: Synchronizing package databases...
+ mingw32 is up to date
+ mingw64 is up to date
+ ucrt64 is up to date
+ clang64 is up to date
+ msys is up to date
+```
+
+
+[Back to index](#index)
+
+
+### 3.3 Update MSys2
+
+接下来更新核心软件包:
+```batch
+pacman -Su
+```
+这句命令先做核心更新，再做系统更新。中间会自动退出。
+
+不要着急重新打开 MSys2，先在 MSys2 的安装目录下找到 `autorebase.bat`，
+双击运行。然后再打开 Msys2。查看该批文件的内容，发现是将环境加入到 PATH 中。
+
+下一步继续前述步骤**更新软件**。
+```batch
+pacman -Su
+```
+
+更新完成后就可以安装 git 等工具软件了：
+```batch
+pacman -S git
+```
+安装 Git 会顺手把 vim 也安装上。
+
 
 [Back to index](#index)
 
@@ -185,6 +234,29 @@ This might be useful for some error mirror sites problems.
 
 可以使用 `msys2` 模拟 `Linux` 环境来运行一些 `bash` 脚本以及 `Linux` 程序。
 很多常见的程序都可以在 `msys2` 的软件仓库中找到，`vim`、`nano`、`git` 等程序都可以正常运行。
+
+
+[Back to index](#index)
+
+
+## 5 How to find mingw64 redistributable dlls?
+
+<https://github.com/msys2/setup-msys2/issues/150>
+
+@WIN_DLL_PATH@/
+
+If you are using mingw64 environment those are in `/mingw64/bin` folder. 
+i.e. `${MINGW_PREFIX}/bin`
+
+The `${MINGW_PREFIX}` variable is valid inside a running msys2/mingw64 
+environment. So, you have to run that copy command in a shell script 
+running in mingw64. I think you are using CI looking at the output. There 
+may be other clever way to copy files. Wait for the experts
+
+On powershell, you can use (& msys2 -c 'cygpath -w /') for getting the 
+absolute path of the MSYS2 installation. See, for instance, 
+https://github.com/umarcor/ghdl/blob/7743675de2bbb6e5fbe2d67cd0128ab1057f142e/.github/workflows/Test.yml#L493. 
+That tests packages installed on MSYS2 from poweshell, using CPython.
 
 
 [Back to index](#index)

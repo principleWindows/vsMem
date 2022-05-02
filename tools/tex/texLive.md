@@ -30,6 +30,9 @@ xelatex -v
 pdflatex -v
 ```
 
+Reload Visual Studio so that the environment path being updated.
+
+
 ## 3 Configuration
 
 Copy `tasks.vs.json` to the `.vs` folder of your project root working space.
@@ -46,7 +49,9 @@ and make sure to add `textemp/` to your `.ignore` file.
 latex F:\Projects\yabee\git\auto-locator\textemp\erdc\erdc.ins
 ```
 
+### 4.2 环境错误处理 (#bailout)
 
+若右键运行 latex 出错，先尝试删除所有暂时生成的中间文件，再次尝试运行。
 
 
 
