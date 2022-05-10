@@ -14,7 +14,7 @@
 
 ## 1. 如何拆分源文件并且分别编译 {#sep_comp}
 
-**这一章的方法都没有试成功！[下一章2.3节](#using-the-import-package)的方法测试成功！**
+**这一章的方法在将路径改为绝对路径后才取得成功，怀疑在VS环境中task.vs.json中任务其当前路径非文件所在路径**
 
 当处理很大的文档时，经常将文件分成若干个部分分别进行编译，这时我们可以使用`LATEX`所提供的命令:
 - \input
@@ -24,6 +24,8 @@
 **\input{texfile}**\
 文件名只需指定基本名，不需加扩展名`.tex`，它等价于直接将文件“文件名.tex”中的内容输入到命令
 `\input`所处的位置.
+
+**样例参见文件夹samples/1/中的main1.tex等**
 
 此命令可以放在文档的任何地方(导言区或正文区)，而且可以相互嵌套。
 
@@ -327,11 +329,23 @@ instead of the folder "sections" where "section1-1.tex" is saved.
 7. [Writing your own package](https://www.overleaf.com/learn/latex/Writing_your_own_package)
 8. [Management in a large project](https://www.overleaf.com/learn/latex/Management_in_a_large_project)
 9. [Multi-file LaTeX projects](https://www.overleaf.com/learn/latex/Multi-file_LaTeX_projects)
-
-new
-
 10. [LaTeX 黑魔法（一）：tcolorbox 宏包简明教程](https://liam.page/2016/07/22/using-the-tcolorbox-package-to-create-a-new-theorem-environment/)
 11. [Latex文件如何拆分进行独立编译？](https://blog.csdn.net/tsingke/article/details/105961046)
+12. [How to use the import package?](https://tex.stackexchange.com/questions/58465/how-to-use-the-import-package/58485#58485)
+13. [Import specific section from another tex file](https://stackoverflow.com/questions/56218371/import-specific-section-from-another-tex-file)
+14. [What are the alternatives to catchfilebetweentags?](https://tex.stackexchange.com/questions/582353/what-are-the-alternatives-to-catchfilebetweentags)
+15. [Using `\input` to insert a section of a document into another](https://newbedev.com/index.php/using-input-to-insert-a-section-of-a-document-into-another)
+16. [Catchfilebetweentags not working](https://tex.stackexchange.com/questions/477585/catchfilebetweentags-not-working)
+17. [Import specific section from another tex file](https://stackoverflow.com/questions/56218371/import-specific-section-from-another-tex-file)
+18. [【杂记】（二）latex](https://zhuanlan.zhihu.com/p/145470121)
+19. [【干货】LaTeX代码样式](https://www.bilibili.com/read/cv14216857)
+20. [LaTeX编译C语言,LaTeX分文件编译教程](https://blog.csdn.net/weixin_36200503/article/details/117143058)
+21. [关于分开编写多个LaTeX文件的一点微小的总结](https://www.cnblogs.com/mashiqi/p/6033323.html)
+22. [LaTeX多文件编译的方法总结](https://www.136.la/tech/show-342955.html)
+23. [Latex的分段编译(input,includeonly,include的使用)](https://blog.csdn.net/x_1203/article/details/105615355?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.pc_relevant_default&utm_relevant_index=2)
+24. [LaTeX技巧如何拆分源文件并且分别编译](https://blog.csdn.net/garfielder007/article/details/51606670)
+25. [LaTeX_fleqn参数时，多行公式对齐居中的同时选择性的加编号](https://www.cnblogs.com/mashiqi/p/5979446.html)
+26. [LATEX 公式编号、子公式编号方法](https://zhuanlan.zhihu.com/p/99406531)
 
 
 [Back to index](#index)

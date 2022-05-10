@@ -13,6 +13,7 @@
 7. [Thank you for downloading Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=17#cplusplus)
 8. [Visual Studio 2022 is now available](https://visualstudio.microsoft.com/launch/)
 9. [What's new in Visual Studio 2022](https://docs.microsoft.com/en-us/visualstudio/ide/whats-new-visual-studio-2022?view=vs-2022)
+10. [Bring your C++ codebase to Visual Studio with ¡°Open Folder¡±](https://devblogs.microsoft.com/cppblog/bring-your-c-codebase-to-visual-studio-with-open-folder/)
 
 ***********************************
 

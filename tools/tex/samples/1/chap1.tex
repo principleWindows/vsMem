@@ -1,0 +1,48 @@
+\ifx\allfiles\undefined
+\RequirePackage{fix-cm}
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+
+\usepackage{amsfonts, amsmath, amssymb, amsthm, array, bm, cite, color, 
+fancyhdr, float, framed, geometry, graphicx, hyperref, mathrsfs, setspace, 
+tcolorbox}
+
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+\addbibresource{chap1.bib}
+
+\geometry{left=1.5cm, right=1.2cm, top=2.5cm, bottom=2.0cm}
+\linespread{0.1}
+
+\title{Something in Title}
+\author{cohomo@blogbus}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\setcounter{page}{1}
+
+\else
+\chapter{Chap1's Title}
+\fi
+
+\section{First Section}
+\cite{Sutton1998}
+
+\section{Second Section}
+
+\ifx\allfiles\undefined
+\backmatter %后记部分，页码格式不变，继续正常计数；其后的\chapter 不编号。
+
+\chapter{ref}
+
+\printbibliography
+
+\end{document}
+\fi

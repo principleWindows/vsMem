@@ -1,0 +1,26 @@
+% main.tex
+\documentclass{book}
+%\usepackage{cite, hyperref}
+
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+\addbibresource{main1.bib}
+
+\def\allfiles{}
+\begin{document}
+\title{A LaTeX Book}
+\author{cohomo@blogbus}
+\date{}
+\maketitle
+\input{D:/mygit/vsMem/tools/tex/samples/1/chap1}
+\input{D:/mygit/vsMem/tools/tex/samples/1/chap2}
+\input{D:/mygit/vsMem/tools/tex/samples/1/chap3}
+
+refs
+
+\printbibliography
+
+\end{document}
