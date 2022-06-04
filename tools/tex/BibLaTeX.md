@@ -10,6 +10,15 @@
 - [How to use Biber with BibLaTeX from the command line](https://tex.stackexchange.com/questions/268463/how-to-use-biber-with-biblatex-from-the-command-line)
 
 
+The year field should only ever contain a (four-digit) year. For fancy 
+things like date ranges or full dates you should use the date field, 
+which accepts ISO8601 input (see ¡ì2.3.8 Date and Time Specifications, 
+esp. Tables 3, 4 and 5 of the 
+[biblatex](http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf) 
+[manual](http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf)
+).
+
+
 ```batch
 texdoc biblatex
 ```

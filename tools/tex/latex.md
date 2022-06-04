@@ -346,6 +346,7 @@ instead of the folder "sections" where "section1-1.tex" is saved.
 24. [LaTeX技巧如何拆分源文件并且分别编译](https://blog.csdn.net/garfielder007/article/details/51606670)
 25. [LaTeX_fleqn参数时，多行公式对齐居中的同时选择性的加编号](https://www.cnblogs.com/mashiqi/p/5979446.html)
 26. [LATEX 公式编号、子公式编号方法](https://zhuanlan.zhihu.com/p/99406531)
+27. [Latex特殊符号大全(高清)](https://blog.csdn.net/begant/article/details/119240508)
 
 
 [Back to index](#index)
