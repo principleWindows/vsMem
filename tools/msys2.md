@@ -13,6 +13,7 @@
 3. [Installation](#installation)
 4. [How to use?](#how-to-use)
 5. [How to find mingw64 redistributable dlls?](#how-to-find-mingw64-redistributable-dlls)
+6. [msys2 and anaconda](#msys2-and-anaconda)
 
 ![](pix/MSYS2-Icon.png)
 
@@ -258,6 +259,27 @@ absolute path of the MSYS2 installation. See, for instance,
 https://github.com/umarcor/ghdl/blob/7743675de2bbb6e5fbe2d67cd0128ab1057f142e/.github/workflows/Test.yml#L493. 
 That tests packages installed on MSYS2 from poweshell, using CPython.
 
+[Back to index](#index)
+
+
+## 6 msys2 and anaconda
+
+参见 [msys2 and anaconda](pyMem/anaconda.md#msys2-and-anaconda)
+
+### 6.1 msys2
+- **cygwin**: 是运行在 windows 平台上的 POXIS “子系统”，提供 Windows 下的类 Unix 系统，提供 window 
+上移植 Linux 应用的开发环境的一套软件
+- **MinGW**: 是用于进行 windows 应用开发的 GNU 工具链(开发环境)，它的编译产物是原生 Windows 应用
+- **MSYS**: 由于 MinGW 本身仅代表工具链，而在 Windows 下，由于 cmd，以及配套的命令行工具不够齐全（也不舒服），因此，MinGW 
+开发者从曾经比较旧的 Cygwin 创建了一个分支，也用于提供类 Unix 环境。但与 Cygwin 的大而全不同，MSYS 
+是冲着小巧玲珑的目标去的，所以整套 MSYS 以及 MinGW，主要以基本的 Linux 工具为主，大小在 200M 左右，并且没有多少扩展能力。
+- **msys2**: 由于 MinGW 万年不更新，MSYS 也是，Cygwin 的许多新功能不能同步过来，于是 Alex 等人建立了新一代的 msys 项目 —— 
+msys2, 使用包管理工具 pacman。仍然 fork 了 Cygwin (较新版)，有活跃的开发者和用户组。有较多预编译的软件包。
+
+### 6.2 anaconda
+
+计算科学工程师们搞出来的用于计算科学的软件，the most popular Python data science platform. 
+简单来说 Anaconda 是 Python 包的集成环境也就是包管理器，另外还是环境管理器。
 
 [Back to index](#index)
 

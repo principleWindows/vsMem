@@ -1,5 +1,6 @@
 # VS Python
 
+- [Multithreading in Python](https://www.scaler.com/topics/multithreading-in-python/)
 - [python安装自己的代码到site-packages](https://blog.csdn.net/kang389110772/article/details/80766344)
 - [python安装第三方包的安装路径，dist-packages和site-packages区别](https://halen.blog.csdn.net/article/details/90080103)
 - [https://docs.microsoft.com/en-us/visualstudio/python/quickstart-05-python-visual-studio-open-folder?view=vs-2022](https://docs.microsoft.com/en-us/visualstudio/python/quickstart-05-python-visual-studio-open-folder?view=vs-2022)
@@ -18,6 +19,7 @@
 2. [python模块安装到Site-packages教程](#install-modules) \
    [2.1 创建发布](#create-setup) \
    [2.2 安装发布](#install-setup)
+3. [创建新项目](#create-project)
 
 
 ## 0 Overview
@@ -270,6 +272,15 @@ C:\Users\jiche\AppData\Roaming\Python\Python39\site-packages
 ```
 
 [Back to index](#index)
+
+
+## 3 创建新项目 <span id="create-project"></span>
+
+new python windows project
+
+
+[Back to index](#index)
+
 
 
 

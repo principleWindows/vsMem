@@ -9,7 +9,8 @@
    [2.1 Inputting and including files](#inputting-and-including-files) \
    [2.2 Preamble in a separate file](#preamble-in-a-separate-file) \
    [2.3 Using the import package](#using-the-import-package)
-3. [References](#references)
+3. [TIKZ](#TIKZ)
+4. [References](#references)
 
 
 ## 1. 如何拆分源文件并且分别编译 {#sep_comp}
@@ -318,7 +319,20 @@ instead of the folder "sections" where "section1-1.tex" is saved.
 [Back to index](#index)
 
 
-## 3 References
+## TIKZ
+
+% http://t.zoukankan.com/qizhou-p-13040159.html
+% https://cloud.tencent.com/developer/ask/sof/1115145
+% https://www.cnblogs.com/qizhou/p/13040159.html
+% https://blog.csdn.net/m0_50984266/article/details/112254334
+% https://blog.csdn.net/m0_50984266/article/details/110728352
+% https://zhuanlan.zhihu.com/p/127155579
+
+
+[Back to index](#index)
+
+
+## 4 References
 
 1. [【LaTeX】自用简洁模板（五）：课程作业](https://zhuanlan.zhihu.com/p/381769429?utm_medium=social&utm_oi=1196798803867680768)
 2. [LaTex 常用语法](https://blog.csdn.net/SmartLab307/article/details/123268896)
